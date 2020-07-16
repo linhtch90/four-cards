@@ -4,13 +4,13 @@ body {
     background-color: hsl(0, 0%, 98%);
     color: hsl(234, 12%, 34%);
     width: 100%;
+    overflow-x: hidden;
 }
 
 header h1.top {
     font-weight: 200;
     color: hsl(229, 6%, 66%);
     text-align: center;
-    
 }
 
 header h1.bottom {
@@ -30,7 +30,7 @@ header p.subheader {
 .container {
     display: flex;
     flex: 1;
-    flex-direction: row;     
+    flex-direction: row;
     margin-top: 25px;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -43,10 +43,10 @@ header p.subheader {
     flex-direction: column;
     margin: 1rem;
     padding: 1rem;
-    flex: 1; 
+    flex: 1;
 }
 
-.container .card-column .card {    
+.container .card-column .card {
     padding: 15px;
     padding-top: 25px;
     margin: 15px;
@@ -76,6 +76,7 @@ header p.subheader {
     border-top: solid 5px hsl(212, 86%, 64%);
 }
 
+
 /* responsive */
 
 @media (max-width: 375px) {
@@ -83,8 +84,4 @@ header p.subheader {
         display: flex;
         flex-direction: column;
     }
-    
 }
-
-
-
